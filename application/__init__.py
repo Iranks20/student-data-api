@@ -23,6 +23,7 @@ from config import DB_CONFIG
 
 application = Flask(__name__)
 
+
 application.config['MYSQL_HOST'] = 'localhost'
 application.config['MYSQL_USER'] = DB_CONFIG['username']
 application.config['MYSQL_PASSWORD'] = DB_CONFIG['password']
